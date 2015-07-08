@@ -36,6 +36,7 @@
 {
     if (event.type == UIEventSubtypeMotionShake)
     {
+        self.view.backgroundColor = [UIColor blackColor];
         NSLog(@"Shake End");
     }
 }
